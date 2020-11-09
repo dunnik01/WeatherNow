@@ -20,7 +20,7 @@ function logic(){
     console.log("here2");
     invalidInput();
   }else{
-   if((!/[^a-zA-Z]/.test(cityNameInput)))
+   if((!/[^a-zA-Z+]/.test(cityNameInput)))
      {
        var url ="https://api.openweathermap.org/data/2.5/weather?q="+ cityNameInput+"&appid="+appid+"&units="+units;
        console.log(url);
