@@ -1,0 +1,59 @@
+
+body{
+  margin:0;
+  padding: 0;
+  text-align: center;
+}
+.background{
+  margin:0;
+  padding: 0;
+  width:100%;
+height:auto;
+z-index: -1;
+}
+
+.data-entry{
+  position: absolute;
+  top: 40px;
+  left :35%;
+  text-align: center;
+  color: #f7f2e7;
+  font-weight: normal;
+  font-size: 1.5rem;
+font-family: 'Noto Sans KR', sans-serif;
+
+}
+
+.app-name{
+text-align: center;
+  font-size: 5rem;
+    font-weight: normal;
+  font-family: 'Cormorant Garamond', serif;
+}
+.cityName{
+  width: 35%;
+  height: 15px;
+    padding: 12px 20px;
+    margin: 8px 0;
+
+}
+button{
+background-color: #f7f2e7;
+padding: 10px;
+font-size: 14px;
+color: black;
+font-family: 'Noto Sans KR', sans-serif;
+opacity: 50%
+}
+.icon{
+  background-color: white;
+  color:black;
+  opacity: 85%;
+border-radius: 100%
+}
+
+.container {
+  position: relative;
+  text-align: center;
+
+}
