@@ -57,3 +57,19 @@ border-radius: 100%
   text-align: center;
 
 }
+.footer{
+  background-color: white;
+  padding-top:100px;
+  padding-left: 25px;
+  padding-right:25px;
+  padding-bottom:50px;
+  color: grey;
+
+}
+
+
+.footer-para{
+  font-size: 1rem;
+  color: grey;
+    font-family: 'Noto Sans KR', sans-serif;
+}
